@@ -45,7 +45,7 @@ ejemplo=list(filter(lambda a:a!=[],ejemplo))
 ejemplo=list(map(lambda a:list(map(lambda h :reduce(lambda j,n:j+n,h),a)) ,ejemplo))
 ejemplo=list(map(lambda a:list(map(lambda v:int(v),a)),ejemplo))
 ejemplo=list(map(lambda y:reduce (lambda a,b:a if a<b else b,y) ,ejemplo))
-print(ejemplo)
+print("Cuarto ejercicio ",ejemplo)
 
 
 
